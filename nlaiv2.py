@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 
 # 1. ХУУДАСНЫ ТОХИРГОО (Заавал хамгийн дээр байх ёстой)
 st.set_page_config(
-    page_title="Batorgil Next Level AI", 
+    page_title=" Next Level AI", 
     page_icon="🤖", 
     layout="wide",
     initial_sidebar_state="expanded"
@@ -149,4 +149,4 @@ if prompt := st.chat_input("Мессеж илгээх..."):
 
 # 6. ХӨЛИЙН ХЭСЭГ (FOOTER)
 st.sidebar.markdown("---")
-st.sidebar.caption("By Batorgil | Graphics & AI")
+st.sidebar.caption("By алтансүх, чандмань эрдэнэ, мягмаржаргал, номинзаяа | Graphics & AI")
